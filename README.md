@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+<p>Clarusway<img align="right"
+  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Clarus Store
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Project aims to create a Clarus Store.
 
-### `npm start`
+## Problem Statement
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Skeleton
 
-### `npm test`
+```
+Clarus Store with Tailwindcss
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+SOLUTION
+📦src
+ ┣ 📂assets
+ ┃ ┗ 📜logo.png
+ ┣ 📂components
+ ┃ ┣ 📜Loading.jsx
+ ┃ ┣ 📜Navbar.jsx
+ ┃ ┣ 📜ProductCard.jsx
+ ┃ ┣ 📜SearchInput.jsx
+ ┃ ┣ 📜Stats.jsx
+ ┃ ┗ 📜Testimonial.jsx
+ ┣ 📂context
+ ┃ ┣ 📜AuthProvider.jsx
+ ┃ ┗ 📜ProductProvider.jsx
+ ┣ 📂helper
+ ┃  ┗ 📜data.js
+ ┣ 📂pages
+ ┃ ┣ 📜About.jsx
+ ┃ ┣ 📜Home.jsx
+ ┃ ┣ 📜Login.jsx
+ ┃ ┣ 📜NotFound.jsx
+ ┃ ┣ 📜ProductDetail.jsx
+ ┃ ┗ 📜Products.jsx
+ ┣ 📂router
+ ┃ ┣ 📜AppRouter.jsx
+ ┃ ┗ 📜PrivateRouter.jsx
+ ┣ 📜App.js
+ ┣ 📜index.css
+ ┗ 📜index.js
+```
 
-### `npm run build`
+## Expected Outcome
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![tailwindcss](tailwindcss.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Objective
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Build a Milestone Blog App using ReactJS.
 
-### `npm run eject`
+### At the end of the project, following topics are to be covered;
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- HTML
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- JS
+- TS
+- React
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### At the end of the project, students will be able to;
 
-## Learn More
+- improve coding skills within HTML & CSS & JS & TS & React.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Steps to Solution
 
-### Code Splitting
+- Step 1 : Create React App using `npx create-react-app clarus-store` or `yarn create react-app clarus-store `.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Step 2 : Include Tailwind CSS in your project
+-
+- Step 2 : Use dummyJson API for search products `https://dummyjson.com/products/search?q=${query}`.
 
-### Analyzing the Bundle Size
+- Step 3: Push your application into your own public repo on Github
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Step 4: Add project gif to your project and README.md file.
 
-### Making a Progressive Web App
+## Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[Clarus Store](https://tailwindcss-project-delta.vercel.app/)
 
-### Advanced Configuration
+## Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- You can add additional functionalities to your app.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**<p align="center">&#9786; Happy Coding &#9997;</p>**
